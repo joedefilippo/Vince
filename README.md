@@ -1,6 +1,6 @@
 # Vince
 Vince is a set of tools useful for preparing manual test cases in Excel to be automated using Selenium with the Python UnitTest framework.
-Vince.py will open an Excel file full of test cases and create boilerplate code.
+Vince.py will open an Excel file full of test cases and create boilerplate UnitTest code.
 
 1. Each worksheet of the Excel file will be processed into it's own python output file
 2. Vince.py is assuming that the Excel follows this format: Test Name = Col A, Step # = Col B, Action = Col C, and Expected Result = Col D
